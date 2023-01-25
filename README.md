@@ -7,6 +7,18 @@
   <p/>
   
  #  Online Cab Booking System
+ 
+Introducing a cutting-edge project that I have recently developed - a RESTful API web service for an online cab booking platform. This project is designed to perform all the fundamental CRUD operations, along with user validation at every step. Whether you are a customer, driver, or administrator, this application has something for everyone.
+
+Customers can register themselves with the application, and log in to get a valid session token. They can view the list of available cabs and book a trip, and only logged-in users can access their trip history, profile updates, and other features.
+
+Drivers can log in to the application and update their information using their username and password. They can add and update their cab details and mark their availability according to the trip status. The driver can also end the trip, and the application generates a bill for the trip.
+
+Admins have the administrator role of the entire application and can only be registered admins with a valid session token. They can add, update, and delete drivers or customers from the main database and access the details of different customers, drivers, and trip bookings.
+
+Overall, this project is a perfect example of a seamless and fully-featured online cab booking platform, built using the latest web development technologies. I am confident that this project will be a valuable addition to any organization looking to improve their online cab booking service.
+
+
 This application is developed as a part of an Assignment for Web Application Development. It is a REST API for an Online Cab Booking. This API performs all the fundamental CRUD operations of any Online Cab Booking platform with user validation at every step.
 
 
