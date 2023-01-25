@@ -17,21 +17,25 @@ Drivers can log in to the application and update their information using their u
 Admins have the administrator role of the entire application and can only be registered admins with a valid session token. They can add, update, and delete drivers or customers from the main database and access the details of different customers, drivers, and trip bookings.
 
 
+## Features
 
-    Authentication and validation for customers, drivers, and administrators is implemented through the use of session UUIDs.
-    Administrator functionality includes:
-        The ability to act as the primary overseer of the entire application
-        The capability to add, update, and delete drivers or customers from the main database
-        Access to details pertaining to customers, drivers, and trip bookings
-    Customer functionality includes:
-        The ability to register with the application and log in to receive a valid session token
-        The capability to view a list of available cabs and book a trip
-        The ability to access trip history, update profile information, and utilize other features, but only for logged-in users.
-    Driver functionality includes:
-        The ability to log in to the application and update personal information using a username and password
-        The capability to add and update cab details
-        The ability to mark availability status according to the status of trips
-        The ability to end a trip and have the application generate a bill for the completed trip.
+- Authentication and validation for customers, drivers, and administrators is implemented through the use of session UUIDs.
+- Administrator functionality includes:
+- The ability to act as the primary overseer of the entire application
+- The capability to add, update, and delete drivers or customers from the main database
+- Access to details pertaining to customers, drivers, and trip bookings
+
+### Customer functionality includes
+
+- The ability to register with the application and log in to receive a valid session token
+- The capability to view a list of available cabs and book a trip
+- The ability to access trip history, update profile information, and utilize other features, but only for logged-in users.
+
+ ### Driver functionality includes
+- The ability to log in to the application and update personal information using a username and password
+- The capability to add and update cab details
+- The ability to mark availability status according to the status of trips
+- The ability to end a trip and have the application generate a bill for the completed trip.
 
 
 ### Technical Stacks
@@ -54,21 +58,6 @@ Admins have the administrator role of the entire application and can only be reg
 -	Cab Management Module
 -	Booking Management Module
 
-### Features
-- Customer, Driver and Admin authentication & validation with session uuid having
-* Admin Features :-
-    * Administrator Role of the entire application
-    * Only registered admins with valid session token can add/update/delete driver or customer from main database
-    * Admin can access the details of different customers, drivers and trip bookings
-* Customer Features :-
-    * Registering themselves with application, and logging in to get the valid session token
-    * Viewing list of available cabs and booking a trip
-    * Only logged in user can access his trip history, profile updation and other features    
-* Cab Driver Features :-
-    * Cab Driver can login in the application and update their information using their username and password
-    * Cab driver can add and update their cab details
-    * Cab Driver can mark their availability according to the trips status
-    * Cab Driver can end the trip and application generates a bill for the trip
 
 ##   ER_Diagram                                            
 ![ER_Diagram](https://user-images.githubusercontent.com/104069112/201485913-289d5d89-fe19-4123-8852-6f0773aa9637.png)
