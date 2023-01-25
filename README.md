@@ -16,11 +16,6 @@ Drivers can log in to the application and update their information using their u
 
 Admins have the administrator role of the entire application and can only be registered admins with a valid session token. They can add, update, and delete drivers or customers from the main database and access the details of different customers, drivers, and trip bookings.
 
-Overall, this project is a perfect example of a seamless and fully-featured online cab booking platform, built using the latest web development technologies. I am confident that this project will be a valuable addition to any organization looking to improve their online cab booking service.
-
-
-This application is developed as a part of an Assignment for Web Application Development. It is a REST API for an Online Cab Booking. This API performs all the fundamental CRUD operations of any Online Cab Booking platform with user validation at every step.
-
 
 
 
